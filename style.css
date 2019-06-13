@@ -1,0 +1,633 @@
+
+/* begin header */
+
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #general {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width: 920px;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+
+    }
+
+    header {
+        background: linear-gradient(187deg, #707070 67%, #fff 50%);
+        height: 400px;
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica Neue, sans-serif;
+
+    }
+
+    #header {
+        width: 100%;
+        padding-top: 20px;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+        color: #ffffff;
+         
+    }
+
+    #header h2 {
+        font-size: 40px;
+        margin: 0;
+        padding-bottom: 10px;
+
+    }
+
+    #header h3 {
+        text-decoration: none;
+        font-weight: 100;
+        font-size: 20px;
+        margin-bottom: 0px;
+        
+    }
+
+
+    #header p{
+        font-size: 16px;
+    }
+
+    ul.menu {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-inline-start: 0;
+        margin: 0 22px;
+    }
+
+     ul.menu li {
+        margin: 10px;
+        border-radius: 4px;
+        border: 1px solid #707070;
+        list-style: none;
+        width: 160px;
+        height: 40px;
+        background-color: #ffffff;
+        color: #888888;
+        font-size: 14px;
+        line-height: 38px;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+
+    }
+
+    ul.menu li:hover {
+        background-color: #3A3A3A;
+        
+    }
+
+    ul.menu li a {
+        text-decoration: none;
+        color: #888888;
+    }
+
+/* end header */
+
+
+/* begin description */
+
+
+    #description-form {
+        font-family: Helvetica Neue, sans-serif;
+        color: #888888;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;  
+        padding: 0 8px; 
+    }
+
+    .descrip{
+        text-align: left;
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 40px;
+    }
+
+    #form {
+        text-align: left;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #form form {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: left;
+        flex-flow: column;
+    }
+
+    #description-form h3 {
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+
+
+    #form .name, .mail, .cpf {
+        margin-bottom: 20px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-content: center;
+        justify-content: initial;
+        flex-direction: column;
+    }
+
+
+    input#name, input#mail, input#cpf {
+        width: 340px;
+        margin-top: 5px;
+    }
+
+
+    .name label, .mail label, .cpf label {
+        font-size: 12px;
+        padding-bottom: 6px;
+    }
+
+    .gender {
+        display: block;
+        font-size: 12px;
+        margin-bottom: 20px;
+
+    }
+
+    .enviar button[type="submit"] {
+        width: 344px;
+        background-color: #ffffff;
+        font-size: 16px;
+        border-radius: 4px;
+        border: 1px solid #707070;
+        padding: 8px;
+        color: #888888;
+    }
+
+    .enviar button[type="submit"]:hover {
+        background-color: #3A3A3A;
+    }
+
+
+/* end description */
+
+/* begin products */
+
+    #sec-products {
+        margin: 60px 0 55px 0;
+        font-family: Helvetica Neue, sans-serif;
+
+    }
+
+    #sec-products hr, #news hr {
+        top: 17px;
+        position: relative;
+        overflow: visible;
+        padding: 0;
+        border: none;
+        border-top: 1px solid #707070;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    #sec-products h3, #news h3 {
+        display: inline-block;
+        position: relative;
+        top: -33px;
+        font-size: 18px;
+        color: #888888;
+        background-color: #ffffff;
+        padding: 0 17px;
+    }
+
+    .products {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-flow: row wrap;
+
+    }
+
+    #sec-products .produto .imagem img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .products .produto {
+        width: 21%; 
+        margin: 15px;
+        text-align: left;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    #sec-products .produto .content p:first-child {
+        margin: 7px 0;
+
+    }
+
+    #sec-products .products .produto p:nth-of-type(2) {
+        font-size: 12px;
+
+    }
+
+    #sec-products .products .produto p {
+        font-size: 14px;
+        color: #888888;   
+
+    }
+
+    #sec-products .products .produto span {
+        font-size: 12px;
+        color: #888888;
+        line-height: 24px;
+    }
+
+    #sec-products .products .produto strong span {
+        font-size: 16px;
+    }
+
+    #sec-products .products .produto button {
+        border-radius: 4px;
+        border: 1px solid #888888;
+        width: 200px;
+        height: 30px;
+        text-align: center;
+        margin: 7px 0;
+        background-color: #ffffff;
+        font-size: 16px;
+
+    }
+
+    #sec-products .products .produto button:hover {
+        background-color: #3A3A3A;
+    }
+
+    #sec-products .products .produto button a {
+        text-decoration: none;
+        color: #888888;
+
+        }
+
+    #sec-products button {
+        margin-top: 52px;
+        width: 260px;
+        height: 39px;
+        font-family: Helvetica Neue, sans-serif;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 4px;
+        border: 1px solid #888888;
+        font-size: 16px;
+
+    }
+
+    #sec-products button a {
+        text-decoration: none;
+        color: #888888;
+    }
+
+/* end products */
+
+/* begin news */
+
+    #news {
+        display: inline-block;
+        font-family: Helvetica Neue, sans-serif;
+        width: 920px;
+
+    }
+
+    #news p{
+        font-size: 14px;
+        text-align: center;
+        color: #888888;
+        position: relative;
+        bottom: 34px;
+        margin: 10px;
+    }
+
+    #formfriend {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #formfriend form {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .namefriend, .mailfriend {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: left;
+        width: 140%;
+    }
+
+    .namefriend {
+        margin-bottom: 20px;
+    }
+
+    input#namefriend, input#mailfriend {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: left;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .namefriend label, .mailfriend label {
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 6px;
+        color: #888888;
+
+    }
+
+    #formfriend button {
+        margin-top: 52px;
+        width: 100%;
+        min-height: 39px;
+        font-family: Helvetica Neue, sans-serif;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 4px;
+        border: 1px solid #888888;
+        font-size: 16px;
+
+    }
+
+    #formfriend button a {
+        text-decoration: none;
+        color: #888888;
+    }
+
+/* end news */
+
+
+/* begin footer */
+
+    footer {
+        background: linear-gradient(-3deg, #707070 78%, #fff 50%);
+        height: 293px;
+        padding: 0;
+
+    }
+
+    footer #end {
+        max-width: 920px;
+        margin: auto;
+        text-align: center;
+        display: block;
+        font-size: 12px;
+        color: #ffffff;
+        font-family: Helvetica Neue, sans-serif;
+    }
+
+    footer #end p:first-child {
+        line-height: 10px;
+        padding-top: 160px;
+    }
+
+/* end footer */    
+
+
+/* begin media 960px */
+
+
+@media (max-width: 960px) {
+
+    #header {
+        width: 80%;
+        text-align: left;
+    }
+
+    .descrip {
+        width: 100%;
+        margin: 12px;
+
+    }
+
+    #general, #news {
+        width: 100%;
+
+    }
+
+    header {
+         background: linear-gradient(187deg, #707070 75%, #fff 50%);
+
+    }
+
+    #description-form {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-products {
+        margin: 60px 0 55px 0;
+    
+    }
+
+    #sec-products .produto .imagem img {
+        width: 157px;
+        height: 120px;
+
+    }
+
+    #sec-products .products .produto button {
+
+    width: 154px;
+    height: 30px;
+    }
+
+
+}
+
+/* end media 900px */
+
+/* begin media 758px */
+
+@media (max-width: 758px){
+
+    #header {
+        text-align: left;
+    }
+
+
+    ul.menu li {
+        width: 94px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        padding: 0 10px;
+
+    }
+
+
+    header {
+        height: 330px;
+        background: linear-gradient(187deg, #707070 75%, #fff 50%)
+    }
+
+    input#name, input#mail, input#cpf {
+    width: 100%;
+
+    }
+
+    .enviar button[type="submit"] {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 279px;
+    }
+
+    #header h3 {
+        font-size: 16px;
+        
+    }
+
+    #header h2 {
+        font-size: 30px;
+    }
+
+    #header p{
+        font-size: 13px;
+    }
+
+
+    #sec-products .produto {
+        width: 100%;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap
+
+    }
+
+    #sec-products .products .produto span {
+        line-height: 20px;
+    }
+
+    .produto.imagem {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .produto.content{
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    #sec-products .products .produto button {
+
+    width: 115px;
+    height: 30px;
+    }
+
+    #sec-products .produto .content {
+        margin-left: 20px;
+
+    }
+
+    #sec-products .produto .content p:nth-child(2) {
+        display: none;
+    }
+
+    .products {
+        margin-bottom: 0px;
+    }
+
+    #sec-products button {
+        margin-top: 10px;
+    }
+
+
+    .namefriend, .mailfriend {
+        width: 100%;
+    }
+
+
